@@ -2,15 +2,13 @@ import clases.SistemaTurno;
 
 import java.util.Scanner;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
         SistemaTurno sistemaTurno = new SistemaTurno();
         boolean continuar = true;
         while (continuar) {
-            System.out.println("    MENU    ");
+            System.out.println(" MENU MANEJO DE TURNO ");
             System.out.println("1. Registrar");
             System.out.println("2. Atender");
             System.out.println("3. Cancelar");

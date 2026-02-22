@@ -129,9 +129,9 @@ public class SistemaTurno {
         double porcentajeG = contG * 100.0 / n;
 
         System.out.println("Promedio: " + promedio);
-        System.out.println("% P: " + porcentajeP);
-        System.out.println("% G: " + porcentajeG);
-        System.out.println("Mayor tiempo -> ID: " + idMax + " Tipo: " + tipoMax);
+        System.out.println(" Porcentaje tipo P: " + porcentajeP);
+        System.out.println("Porcentaje tipo G: " + porcentajeG);
+        System.out.println("Mayor tiempo ID: " + idMax + " Tipo: " + tipoMax);
         System.out.println("Múltiplos de 5: " + multiplo5);
     }
     public void mostrar(){
@@ -141,9 +141,9 @@ public class SistemaTurno {
         }
         for (int i = 0; i < n; i++) {
             System.out.println("Pos " + i +
-                    " | ID: " + ids[i] +
-                    " | Tipo: " + tipos[i] +
-                    " | Tiempo: " + tiempos[i]);
+                    "  ID: " + ids[i] +
+                    "  Tipo: " + tipos[i] +
+                    "  Tiempo: " + tiempos[i]);
         }
     }
 
